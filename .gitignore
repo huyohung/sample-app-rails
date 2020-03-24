@@ -1,3 +1,5 @@
 /.bundle/*
 /log/*
 /tmp/*
+/.idea/*
+/db/schema.rb
