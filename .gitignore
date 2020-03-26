@@ -2,5 +2,5 @@
 /log/*
 /tmp/*
 /.idea/*
-/db/schema.rb
+/db/*
 /node_modules/*
