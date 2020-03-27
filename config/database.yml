@@ -22,6 +22,6 @@ test:
 
 production:
   <<: *default
-  database: d9en0mdt9rkeb9
-  username: kiotdripajdwpw
-  password: <%= ENV['c70cd58d6d0d679fdfd651b39ba94ccf50de0f87b7436891c3f6d6477ca44d8a'] %>
+  database: dclj59cg91kfjs
+  username: igfcwyrxzypgaj
+  password: <%= ENV['1377bf703b6e1dd8a52489f989edd500d106e31e079431103c5b0ed128f4ff65'] %>
