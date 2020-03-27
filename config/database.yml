@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: d9en0mdt9rkeb9
+  username: kiotdripajdwpw
+  password: <%= ENV['c70cd58d6d0d679fdfd651b39ba94ccf50de0f87b7436891c3f6d6477ca44d8a'] %>
