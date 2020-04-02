@@ -2,6 +2,5 @@
 /log/*
 /tmp/*
 /.idea/*
-/db/*
 /node_modules/*
 /public/uploads
