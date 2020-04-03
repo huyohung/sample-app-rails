@@ -1,5 +1,22 @@
 Rails.application.configure do
 
+  ###### HEROKU
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
+  # SMTP settings for gmail
+  config.action_mailer.smtp_settings = {
+   :address              => "smtp.gmail.com",
+   :port                 => 587,
+   :authentication       => :plain,
+   :domain               => "heroku.com",
+   :enable_starttls_auto => true,
+   :user_name            => 'huyo.hung98@gmail.com',
+   :password             => 'Anhhung123!',
+   :openssl_verify_mode  => 'none'
+  }
+
+  host = 'hungbh.herokuapp.com' 
+  config.action_mailer.default_url_options = { host: host}
   # Settings specified here will take precedence over those in config/application.rb.
   # Code is not reloaded between requests.
   config.cache_classes = true
