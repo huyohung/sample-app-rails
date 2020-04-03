@@ -89,6 +89,14 @@ class UsersController < ApplicationController
   end
 
   private
+  def change_params?
+    if @user[:name] != params[:user][:name] || @user[:email] != params[:user][:email] || params[:user][:password] != ""
+      return true
+    else
+      return false
+    end
+  end
+
   def user_params
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
